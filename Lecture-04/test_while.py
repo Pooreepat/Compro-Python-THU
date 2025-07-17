@@ -5,4 +5,4 @@ while keep_going == 'y':
     comm_rate = float(input("Enter the commission rate: "))
     commission = sales * comm_rate
     print("The commission is $",format(commission,'.2f'))
-    keep_going = input("Do you want to calculate another commission? (y/n): ")
+    keep_going = input("Do you want to calculate another commission? (y/n): ")git remote remove upstream
